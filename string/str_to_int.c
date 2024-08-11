@@ -6,6 +6,7 @@ int main()
     int num = 0;
     while(s[i]!='\0') {
         num = num*10 + (s[i]-48);
+        //num = num*10 + (s[i]-'0'); /*This line works too*/
         i++;
     }
     printf("%d",num);
