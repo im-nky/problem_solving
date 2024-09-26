@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 # define my_sizeof1(x) (char*)(&x+1) - (char*)(&x)
-
+// use char or uint8_t => <stdint.h>
 int main()
 {
     int arr[5];
