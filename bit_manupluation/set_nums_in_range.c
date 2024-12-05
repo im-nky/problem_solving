@@ -15,7 +15,7 @@ int setallbitgivenrange(int n, int l, int r)
     int range = (((1 << (l - 1)) - 1) ^    
                 ((1 << (r)) - 1));
  
-    //int reset = n ^ range;  // for restting first toggle then take & with original number
+    //int reset = n ^ range;  // ATTENSION: Specail Case :for restting first toggle then take & with original number
     //return n & range;  // to reset bits in a range
     
     //return (n ^ range); // to toggle bits in a range
