@@ -7,6 +7,6 @@ int main() {
     // To access the value, you need to cast the void pointer back to an int pointer
     int * intPtr = (int *)ptr;
     printf("Value: %d\n", *intPtr);
-
+    printf("Dereferenc void point %d",*(int *)ptr);
     return 0;
 }
