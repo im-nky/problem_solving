@@ -4,8 +4,9 @@
 int main()
 {
     uint8_t num = 8;
-    int l = 4;
+    int l = 5;
     int r = 8;
+    // here indexing is 1th position based.
     uint8_t mask = ((1<<(r-l+1))-1)<<(l-1);
     printf("mask %x\n", mask);
     printf("set bits %x\n",num | mask);
